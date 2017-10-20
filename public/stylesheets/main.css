@@ -1,0 +1,190 @@
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+#delete-form {
+    display: inline;
+}
+
+body {
+	padding-top: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.9rem;
+	background-image: url("bg_alinx.png");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.jumbotron {
+	color: #2C3E50;
+	background-color: rgba(204,204,208,0.5);
+	/*background-color:#ECF0F1;*/
+}
+
+#jumboclear {
+	background: none;
+}
+
+.header {
+	padding-top: 30px;
+}
+
+.navbar-dark {
+	background-color: #2C3E50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+h1 {
+	text-size: 700;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.footer {
+	padding: 20px 20px;
+	margin: 20px 0px;
+	background-color: rgba(5, 23, 33,0.8);
+}
+
+.allrights {
+	padding-top: 20px;
+}
+
+.footertext {
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+}
+
+a.footertext {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #000000;
+	padding: 5px;
+}
+
+a.footertext:hover {
+	color: white;
+	background-color: black;
+	text-decoration: none;
+}
+
+.biopics {
+	width: 70%;
+}
+
+a:link {
+	color: #FFFFFFF;
+}
+
+.navhov:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+	text-decoration: none;
+}
+
+#navhov:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+	text-decoration: none;
+}
+
+.servtitle {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 0 0;
+	margin: 5px 0;
+}
+
+.minpadding {
+	padding: 0 0;
+	margin: 5px 0;
+}
+
+.float {
+	float: left;
+	vertical-align: middle;
+}
+
+.floatr {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.socmedia {
+	color: rgb(59, 89, 152);
+}
+
+.socmedia:hover {
+	color: white;
+	background-color: black;
+}
+
+.smfooter {
+	background: white;
+	margin: 3px auto;
+	padding: 3px;
+	width: 120px;
+}
+
+.userinput {
+	width: 90%;
+}
+
+.userdescript {
+	height: 70px;
+}
+
+#sections {
+	padding: 20px;
+}
+
+.areaheader {
+	padding-bottom: 15px;
+}
+
+#padtop {
+	padding-top: 3%;
+}
+
+#greyicon {
+	color: grey;
+}
+
+.portal-link {
+	font-size: 13px;
+}
+
+.portal-text {
+	font-size: 13px;
+}
