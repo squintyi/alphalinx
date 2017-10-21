@@ -17,10 +17,10 @@ var commentRoutes    = require("./routes/comments"),
     indexRoutes      = require("./routes/index")
 
 var port = process.env.PORT || 31812;
-// var url = DATABASEURL || "mongodb://localhost/alphalinx";
-// var DATABASEURL = "mongodb://eklinx2017:p%40ndalinx88@ds031812.mlab.com:31812/alphalinx";
+// var DATABASEURL = "mongodb://localhost/alphalinx";
+mongoose.connect(process.env.DATABASEURL);
 
-mongoose.connect("mongodb://eklinx2017:p%40ndalinx88@ds031812.mlab.com:31812/alphalinx");
+process.env.DATABASEURL
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
